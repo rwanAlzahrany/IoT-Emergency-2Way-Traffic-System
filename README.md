@@ -14,7 +14,7 @@ Buzzer Alert: Provides audio feedback during emergency triggers.
 
 ### Hardware Used
 
-2x NodeMCU (ESP8266)
+2x NodeMCU (ESP8266) 
 2x IR Sensors (for North/South density)
 6x LEDs (Red, Yellow, Green for two sides)
 1x Push Button (Emergency Trigger)
@@ -27,3 +27,9 @@ Traffic Node: Upload Traffic_Controller.ino to the main intersection board.
 Emergency Node: Update the trafficMAC address in Emergency_Unit.ino with your controller's MAC address and upload it.
 Monitor: Open the Serial Monitor at 115200 baud to see the WiFi connection and traffic states.
 Dashboard: Check your ThingSpeak channel to see the live traffic data.
+
+
+### Project Structure
+
+Traffic_Controller.ino: The main code for the lights and sensors.
+Emergency_Unit.ino: The code for the remote button/ambulance unit.
